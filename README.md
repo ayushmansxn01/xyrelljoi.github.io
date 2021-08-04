@@ -1,2 +1,2 @@
 # xyrelljoi.github.io
-my portfolio
+not yet done 🥺
