@@ -1,6 +1,6 @@
-body{
-
+body, html{
     font-family:'Poppins', sans-serif;
+    margin: 0;
 }
 ul{
     padding: 0;
@@ -11,10 +11,8 @@ a{
     text-decoration: none;
     color:#CB4E47;
 }
-section {
-    padding: 64px;
-}
-/*navbar*/
+
+/*NAVBAR*/
 .l-header{
     width: 100%;
     position:fixed;
@@ -47,21 +45,28 @@ ul a:hover{
 }
 
 /*HOME SECTION*/
-.wrap{
+.main{
+/*
     min-width: 600px;
-    width: 90%;
-    margin:auto;
+    width: 90%;*/
 }
 .home{
-    margin:auto;
-    display: flex;
-}
-.content{
+    margin-top: 64px;
+    padding: 20px;
+    padding-top: 40px;
     color: black;
+}
+.intro{
+    margin: 120px;
+    padding: 20px;
+    margin-right: 360px;
 }
 img{
     border-radius: 50%;
-    display: flex;
+    position: absolute;
+    top:120px;
+    right:280px;
+
 }
 
 /*ABOUT SECTION*/
