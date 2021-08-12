@@ -70,6 +70,12 @@ img{
 
 }
 
+.btn{color: rgba(0, 0, 0, 0.932);
+    background-color: rgba(212, 94, 192, 0.342);
+    border-radius:12px ;
+    
+}
+
 /*ABOUT SECTION*/
 .about{
     text-align: center;
