@@ -3,6 +3,7 @@ html{
     font-family:'Poppins', sans-serif;
     margin: 0;
 }
+
 ul{
     padding: 0;
     list-style: none;
@@ -73,6 +74,7 @@ img{
 .btn{color: rgba(0, 0, 0, 0.932);
     background-color: rgba(212, 94, 192, 0.342);
     border-radius:12px ;
+    height: 2.2rem;
     
 }
 
@@ -90,4 +92,79 @@ footer{
     background-color: #CB4E47;
     color: white;
     padding: 25px;
+}
+.head {
+    color: #5a1dee;
+    font-size: 1.77rem;
+}
+
+
+@media only screen and (max-width: 1050px)
+{
+    img{
+        height: 20%;
+        width: 20%;
+    
+    
+    
+
+    }
+
+    .navlist{
+        display: flex;
+        align-self:baseline;
+    }
+    .middle{
+            display: flex;
+            flex-direction: row;
+           justify-content: center;
+           align-items: center;
+    }
+    
+    .home {
+        margin-top: 50%;
+        padding: 20px;
+        padding-top: 40px;
+        color: black;
+    }
+    .nav{
+        display: flex;
+      margin: 0;
+        
+        
+    }
+    
+
+
+
+}
+@media only screen and (max-width: 340px){
+
+    .list{
+        display: flex;
+        flex-direction: row-reverse;
+
+
+    }
+    .nav-grid{
+
+        display:grid;
+       
+        margin-left: 1rem;
+        
+    }
+    .head {
+        color: #5a1dee;
+        font-size: 0.77rem;
+    }
+    img{ position:static;
+        height: 112px;
+        width: 112px;
+    }
+    .intro{
+        margin: 0px;
+        padding: 0px;
+        margin-right: 0px;
+    }
+
 }
